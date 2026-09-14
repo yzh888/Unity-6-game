@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6852741174160092062
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.079972
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000015520012
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.845705
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+      propertyPath: m_Name
+      value: animal-parrot
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7536558602391454289}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7337155388993213830}
+  m_SourcePrefab: {fileID: 100100000, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+--- !u!1 &6041783528390940367 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0061d4c5bf249b343bda89f53543390a, type: 3}
+  m_PrefabInstance: {fileID: 6852741174160092062}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7536558602391454289
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6041783528390940367}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7337155388993213830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6041783528390940367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a24473d8858f84d9c8d8c0bad64738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pet
+  followSpeed: 10
+  turnSpeed: 12
+  groundOffset: 0.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
